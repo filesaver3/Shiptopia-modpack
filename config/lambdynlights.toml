@@ -1,0 +1,149 @@
+# LambDynamicLights configuration.
+# The dynamic lights mode
+mode = "fancy"
+
+# Light sources settings.
+[light_sources]
+	# Enables water-sensitive light sources check. This means that water-sensitive items will not light up when submerged in water.
+	water_sensitive_check = true
+	# Enable block entities light source.
+	block_entities = true
+	# Enable entities light source.
+	entities = true
+	# Enable first-person player light source.
+	self = true
+	# TNT lighting mode. May be off, simple or fancy.
+	tnt = "off"
+	# Creeper lighting mode. May be off, simple or fancy.
+	creeper = "simple"
+
+	[light_sources.settings]
+
+		[light_sources.settings.entities]
+
+			[light_sources.settings.entities.minecraft]
+				bee = true
+				axolotl = true
+				arrow = true
+				cow = true
+				pig = true
+				allay = true
+				skeleton = true
+				llama = true
+				bat = true
+				husk = true
+				frog = true
+				experience_bottle = true
+				rabbit = true
+				silverfish = true
+				armor_stand = true
+				drowned = true
+				experience_orb = true
+				dolphin = true
+				item = true
+				salmon = true
+				wandering_trader = true
+				ocelot = true
+				item_frame = true
+				horse = true
+				vindicator = true
+				evoker = true
+				llama_spit = true
+				glow_squid = true
+				glow_item_frame = false
+				squid = true
+				parrot = true
+				creeper = true
+				lightning_bolt = true
+				enderman = true
+				tadpole = true
+				chicken = true
+				trader_llama = true
+				donkey = true
+				chest_minecart = true
+				tropical_fish = true
+				fox = true
+				slime = true
+				pillager = true
+				iron_golem = true
+				area_effect_cloud = true
+				cat = true
+				zombie = true
+				guardian = true
+				sheep = true
+				player = true
+				pufferfish = true
+				illusioner = true
+				potion = true
+				trident = true
+				wolf = true
+				villager = true
+				zombie_villager = true
+				tnt_minecart = true
+				elder_guardian = true
+				boat = true
+				painting = true
+				cave_spider = true
+				witch = true
+				cod = true
+				spider = true
+
+			[light_sources.settings.entities.pirates]
+				pirate = true
+				shot = true
+
+			[light_sources.settings.entities.valkyrienskies]
+				ship_mounting_entity = true
+
+			[light_sources.settings.entities.minecells]
+				grenadier = true
+				undead_archer = true
+				shieldbearer = true
+				elevator = true
+				leaping_zombie = true
+				protector = true
+				mutated_bat = true
+				runner = true
+
+			[light_sources.settings.entities.creeperoverhaul]
+				swamp_creeper = true
+				bamboo_creeper = true
+				badlands_creeper = true
+				ocean_creeper = true
+				dark_oak_creeper = true
+				dripstone_creeper = true
+				jungle_creeper = true
+				cave_creeper = true
+				beach_creeper = true
+				savannah_creeper = true
+				hills_creeper = true
+
+			[light_sources.settings.entities.friendsandfoes]
+				glare = true
+				moobloom = true
+				mauler = true
+				rascal = true
+
+			[light_sources.settings.entities.mythicmobs]
+				kobold_warrior = true
+				mushroom_thing = true
+				kobold = true
+				drake = true
+				chupacabra = true
+
+			[light_sources.settings.entities.fishofthieves]
+				devilfish = true
+				splashtail = true
+				ancientscale = true
+				plentifin = true
+				wildsplash = true
+				islehopper = true
+				pondie = true
+
+			[light_sources.settings.entities.aquamirae]
+				anglerfish = true
+				tortured_soul = true
+				maw = true
+				golden_moth = true
+				spinefish = true
+
